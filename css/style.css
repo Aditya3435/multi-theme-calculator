@@ -98,7 +98,12 @@ body {
 	letter-spacing: 1rem;
   cursor: pointer;
 }
-
+.github-link {
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
 
 body.dark {
   background-color: white;
