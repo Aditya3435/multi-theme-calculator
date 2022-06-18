@@ -15,7 +15,7 @@ body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 20rem;
   height: 30rem;
-  margin: auto;
+  margin: 6rem auto;
 }
 
 .header-main {
@@ -57,6 +57,7 @@ body {
   border: 0;
   border-radius: 0.5rem;
   background-color: #181f32;
+  text-align: right;
 }
 .half-button {
   width:10rem;
@@ -67,6 +68,7 @@ body {
   background-color: #425076;
   border-radius: 5px;
   font-weight: bold;
+  color: #eae3db;
 }
 .equal-button {
   background-color: #D13F2F;
@@ -82,7 +84,7 @@ body {
   border-bottom: #4b5a86 3px solid;
   color: #eae3db;
 }
-.toggle-button {
+#toggle-button {
   position: relative;
 }
 .themes {
@@ -98,15 +100,17 @@ body {
 }
 
 
-.dark-mode {
-  background-color: black;
-  color: white;
+body.dark {
+  background-color: white;
+  color: black;
 }
 .ball {
   background-color: #C04745;
-  width: 1rem;
-  height: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 5rem;
   position: absolute;
-  
+  left: 0.2rem;
+  top: 0.15rem;
+  cursor: pointer;
 }
