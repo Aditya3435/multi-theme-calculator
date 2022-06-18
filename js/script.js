@@ -1,6 +1,6 @@
 // function toggleThemes() {
 //   const toggleButton = document.getElementById('toggle-button');
-//   toggleButton.body.classList.toggle("dark")
+//   toggleButton.body.classList.toggle(".dark")
 // }
 
 document.querySelector('input').value = '0';

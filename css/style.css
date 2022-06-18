@@ -6,7 +6,7 @@
 
 body {
   background-color: #3b4664;
-  color: #fff;
+  color: #F1F1F1;
 }
 
 .container {
@@ -41,17 +41,22 @@ body {
 }
 .each-key,
 .del-key {
-  width: 5.3rem;
-  height: 2.5rem;
+  width: 5rem;
+  height: 3.5rem;
   border-radius: 5px;
   margin: 0 0.2rem;
   cursor: pointer;
   background-color: #eae3db;
   color: #454954;
   font-weight: bold;
-  padding: 0.4rem;
+  padding: 1rem;
   border-bottom: 3px solid #a3a2a1;
 }
+
+.each-key:hover {
+  background-color: #b3b3b3;
+}
+
 .input-section {
   margin: 1rem 0;
   padding: 1.8rem;
@@ -64,26 +69,35 @@ body {
   width: 10rem;
   cursor: pointer;
   margin: 0 0.3rem;
-  padding: 0.5rem 0;
-  border-bottom: #2b3146 3px solid;
+  border-bottom: #191c25 3px solid;
   background-color: #425076;
   border-radius: 5px;
   font-weight: bold;
   color: #eae3db;
 }
+.half-button:hover {
+  background-color: #253057;
+}
 .equal-button {
   background-color: #d13f2f;
   border-bottom: #70241c 3px solid;
+}
+.equal-button:hover {
+  background-color: #902b20;
 }
 .keys {
   background-color: #252d44;
   text-align: center;
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 .del-key {
   background-color: #64719b;
   border-bottom: #4b5a86 3px solid;
   color: #eae3db;
+}
+.del-key:hover {
+  background-color:#3a4c8d;
 }
 #toggle-button {
   position: relative;
@@ -106,7 +120,7 @@ body {
   color: #fff;
 }
 
-body.dark {
+.dark {
   background-color: white;
   color: black;
 }
