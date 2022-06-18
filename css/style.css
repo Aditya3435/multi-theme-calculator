@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   width: 20rem;
   height: 30rem;
   margin: 6rem auto;
@@ -30,7 +30,7 @@ body {
   margin-left: 4rem;
   font-size: 0.8rem;
   margin-top: 0.2rem;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .row {
   display: flex;
@@ -39,15 +39,16 @@ body {
 .upper-row {
   margin-top: 0.5rem;
 }
-.each-key, .del-key {
-	width: 5.3rem;
-	height: 2.5rem;
-	border-radius: 5px;
-	margin: 0 0.2rem;
-	cursor: pointer;
-	background-color: #eae3db;
-	color: #454954;
-	font-weight: bold;
+.each-key,
+.del-key {
+  width: 5.3rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: 0 0.2rem;
+  cursor: pointer;
+  background-color: #eae3db;
+  color: #454954;
+  font-weight: bold;
   padding: 0.4rem;
   border-bottom: 3px solid #a3a2a1;
 }
@@ -60,10 +61,10 @@ body {
   text-align: right;
 }
 .half-button {
-  width:10rem;
+  width: 10rem;
   cursor: pointer;
   margin: 0 0.3rem;
-  padding:0.5rem 0;
+  padding: 0.5rem 0;
   border-bottom: #2b3146 3px solid;
   background-color: #425076;
   border-radius: 5px;
@@ -71,7 +72,7 @@ body {
   color: #eae3db;
 }
 .equal-button {
-  background-color: #D13F2F;
+  background-color: #d13f2f;
   border-bottom: #70241c 3px solid;
 }
 .keys {
@@ -80,7 +81,7 @@ body {
   border-radius: 0.5rem;
 }
 .del-key {
-  background-color: #64719B;
+  background-color: #64719b;
   border-bottom: #4b5a86 3px solid;
   color: #eae3db;
 }
@@ -88,14 +89,14 @@ body {
   position: relative;
 }
 .themes {
-	text-align: center;
-	width: 4rem;
-	padding-left: 0.3rem;
-	height: 1.2rem;
-	font-size: 0.8rem;
-	border-radius: 4rem;
-	background-color: #181E33;
-	letter-spacing: 1rem;
+  text-align: center;
+  width: 4rem;
+  padding-left: 0.3rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  border-radius: 4rem;
+  background-color: #181e33;
+  letter-spacing: 1rem;
   cursor: pointer;
 }
 .github-link {
@@ -110,7 +111,7 @@ body.dark {
   color: black;
 }
 .ball {
-  background-color: #C04745;
+  background-color: #c04745;
   width: 0.9rem;
   height: 0.9rem;
   border-radius: 5rem;
