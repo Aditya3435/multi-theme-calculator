@@ -143,3 +143,9 @@ body {
   background-color: #17062A;
   color: white;
 }
+.white-theme .keys, .white-theme .input-section {
+  background-color: #c3c2c2;
+}
+.blue-theme .keys, .blue-theme .input-section {
+  background-color: #331B4D;
+}
