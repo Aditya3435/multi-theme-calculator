@@ -9,6 +9,7 @@ body {
   color: #F1F1F1;
 }
 
+
 .container {
   display: flex;
   flex-direction: column;
@@ -64,6 +65,7 @@ body {
   border-radius: 0.5rem;
   background-color: #181f32;
   text-align: right;
+  color: #fff;
 }
 .half-button {
   width: 10rem;
@@ -99,19 +101,28 @@ body {
 .del-key:hover {
   background-color:#3a4c8d;
 }
-#toggle-button {
-  position: relative;
-}
 .themes {
-  text-align: center;
-  width: 4rem;
-  padding-left: 0.3rem;
+  width: 1.2rem;
   height: 1.2rem;
-  font-size: 0.8rem;
-  border-radius: 4rem;
-  background-color: #181e33;
-  letter-spacing: 1rem;
+  margin: 0 0.1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
   cursor: pointer;
+  background-color: rgba(41, 49, 71, 0.9);
+  color: white;
+}
+.theme-1:hover {
+  background-color: rgba(29, 34, 48, 1);
+  color: #fff;
+}
+.theme-2:hover {
+  background-color: rgba(255, 255, 255, 0.293);
+  color: #000;
+}
+.theme-3:hover {
+  background-color: rgba(12, 2, 22, 0.5);
+  color: #fff;
 }
 .github-link {
   margin: 2rem;
@@ -119,18 +130,16 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.default-theme {
+  background-color: #3b4664;
+  color: #F1F1F1;
+}
 
-.dark {
+.white-theme {
   background-color: white;
   color: black;
 }
-.ball {
-  background-color: #c04745;
-  width: 0.9rem;
-  height: 0.9rem;
-  border-radius: 5rem;
-  position: absolute;
-  left: 0.2rem;
-  top: 0.15rem;
-  cursor: pointer;
+.blue-theme {
+  background-color: #17062A;
+  color: white;
 }

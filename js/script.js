@@ -1,7 +1,12 @@
-// function toggleThemes() {
-//   const toggleButton = document.getElementById('toggle-button');
-//   toggleButton.body.classList.toggle(".dark")
-// }
+function toggleDefault() {
+  document.body.classList.add("default-theme");
+}
+function toggleWhite() {
+  document.body.classList.add("white-theme");
+}
+function toggleBlue() {
+  document.body.classList.add("blue-theme");
+}
 
 document.querySelector('input').value = '0';
 let str = "";
