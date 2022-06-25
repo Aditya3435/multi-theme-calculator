@@ -1,11 +1,17 @@
 function toggleDefault() {
   document.body.classList.add("default-theme");
+  document.body.classList.remove("blue-theme");
+  document.body.classList.remove("white-theme");
 }
 function toggleWhite() {
   document.body.classList.add("white-theme");
+  document.body.classList.remove("default-theme");
+  document.body.classList.remove("blue-theme");
 }
 function toggleBlue() {
   document.body.classList.add("blue-theme");
+  document.body.classList.remove("white-theme");
+  document.body.classList.remove("default-theme");
 }
 
 document.querySelector('input').value = '0';
